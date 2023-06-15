@@ -1,75 +1,75 @@
 body {
-    font: 14px "Century Gothic", Futura, sans-serif;
-  }
-  
-  .player {
-    z-index: 1;
-    position: absolute;
-    top: 450px;
-    left: 300px;
-    border-radius: 50%;
-    border: 1px solid #000;
-    background-color: #fff;
-    box-sizing: border-box;
-    width:20px;
-    height:20px;
-  }
-  .enemy {
-    z-index: 2;
-    position: absolute;
-    border-radius: 50%;
-    border: 1px solid #f00;
-    background-color: #fff;
-    box-sizing: border-box;
-    width:20px;
-    height:20px;
-  }
-  .bullet {
-    z-index: 1;
-    position: absolute;
-    border-radius: 50%;
-    background-color: black;
-    box-sizing: border-box;
-    width:4px;
-    height:4px;
-  }
-  .count-board{
-    font-size: 48px;
-    position: relative;
-    width:480px;
-    height:480px;
-  }
-  .pie{
-    position:absolute;
-    top:25%;
-    left:25%;
-    width: 50%;
-    height: 50%;
-    clip-path: circle();
-  }
-  .small-pie{
-    position:absolute;
-    top:37.5%;
-    left: 37.5%;
-    width: 25%;
-    height: 25%;
-    clip-path: circle();
-    color:#fff;
-  }
-  .count-number{
-    font: 100% "Century Gothic", Futura, sans-serif;
-    position: absolute;
-    top:43%;
-    left:47.5%;
-  }
-  .stage{
-    border: 2px solid #000;
-    position:relative;
-    width:480px;
-    height:480px;
-    background-color:mintcream;
-  }
-  .scoreboard{
-    border: 2px solid #000;
-    background-color: white;
-  }
+  font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+.player {
+  z-index: 1;
+  position: absolute;
+  top: 450px;
+  left: 300px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-color: #000;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+}
+.enemy {
+  z-index: 2;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-color: #f00;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+}
+.bullet {
+  z-index: 1;
+  position: absolute;
+  border-radius: 50%;
+  background-color: black;
+  box-sizing: border-box;
+  width: 4px;
+  height: 4px;
+}
+.count-board {
+  font-size: 48px;
+  position: relative;
+  width: 480px;
+  height: 480px;
+}
+.pie {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  clip-path: circle();
+}
+.small-pie {
+  position: absolute;
+  top: 37.5%;
+  left: 37.5%;
+  width: 25%;
+  height: 25%;
+  clip-path: circle();
+  color: #fff;
+}
+.count-number {
+  font: 100% "Century Gothic", Futura, sans-serif;
+  position: absolute;
+  top: 43%;
+  left: 47.5%;
+}
+.stage {
+  border: 2px solid #000;
+  position: relative;
+  width: 480px;
+  height: 480px;
+  background-color: mintcream;
+}
+.scoreboard {
+  border: 2px solid #000;
+  background-color: white;
+}
